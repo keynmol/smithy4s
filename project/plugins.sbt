@@ -17,6 +17,8 @@ addSbtPlugin("com.typesafe"         % "sbt-mima-plugin"               % "1.1.3")
 addSbtPlugin("ch.epfl.scala"        % "sbt-bloop"                     % "1.5.18")
 addSbtPlugin("com.thesamet"         % "sbt-protoc"                    % "1.0.7")
 
+addSbtPlugin("com.indoorvivants" % "sbt-bspquery" % "0.0.1")
+
 libraryDependencies ++= Seq(
   "com.lihaoyi" %% "os-lib" % "0.8.1",
   "com.github.plokhotnyuk.jsoniter-scala" %% "jsoniter-scala-macros" % "2.28.5",
